@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
     file.close();
 
     std::vector<std::string> features = scanFeatures(content);
-    std::map<std::string, bool> baselineData = loadBaselineData("data/baseline_features.json");
+    std::map<std::string, bool> baselineData = loadBaselineData("src/baseline_features.json");
 
     std::cout << "\n🔍 Scanned Features:\n";
     for (const auto& feature : features) {
@@ -36,3 +36,7 @@ int main(int argc, char* argv[]) {
             std::cout << "  ↪ Fallback: " << fallback << "\n";
         }
     }
+
+    std::cout << "\n✅ Validation complete.\n";
+    return 0;
+}
