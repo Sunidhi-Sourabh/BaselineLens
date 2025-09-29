@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BaselineLens Test</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .card:has(h2) {
+      border: 1px solid black;
+    }
+  </style>
+  <script defer>
+    const data = fetch('/api/data');
+    let count = 0;
+    const total = 10;
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Feature Test</h2>
+      <p>Using modern layout and JS features.</p>
+    </div>
+  </div>
+</body>
+</html>
