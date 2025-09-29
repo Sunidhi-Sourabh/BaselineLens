@@ -1,0 +1,17 @@
+{
+  "grid": true,
+  "flex": true,
+  "fetch": true,
+  "async": true,
+  "defer": true,
+  "let": true,
+  "const": true,
+  ":has(": false,
+  "document.registerElement": false,
+  "navigator.serviceWorker": true,
+  "Intl.DateTimeFormat": true,
+  "Array.prototype.flat": true,
+  "CSS.paintWorklet": false,
+  "WebAssembly": true,
+  "BigInt": true
+}
