@@ -4,6 +4,7 @@
 #include "scanner.h"
 #include "json_loader.h"
 #include "validator.h"
+#include "fallback.h"
 
 int main(int argc, char* argv[]) {
     if (argc != 3 || std::string(argv[1]) != "validate") {
@@ -28,6 +29,11 @@ int main(int argc, char* argv[]) {
     for (const auto& feature : features) {
         std::string badge = validateFeature(feature, baselineData);
         std::cout << "Feature: " << feature << " → " << badge << "\n";
+
+        if (badge != "✅ Supported") {
+            std::string fallback = suggestFallback(feature);
+            std::cout << "↪ Fallback: " << fallback << "\n";
+        }
     }
 
     return 0;
