@@ -26,15 +26,13 @@ int main(int argc, char* argv[]) {
     std::vector<std::string> features = scanFeatures(content);
     std::map<std::string, bool> baselineData = loadBaselineData("data/baseline_features.json");
 
+    std::cout << "\n🔍 Scanned Features:\n";
     for (const auto& feature : features) {
         std::string badge = validateFeature(feature, baselineData);
-        std::cout << "Feature: " << feature << " → " << badge << "\n";
+        std::cout << "• " << feature << " → " << badge << "\n";
 
         if (badge != "✅ Supported") {
             std::string fallback = suggestFallback(feature);
-            std::cout << "↪ Fallback: " << fallback << "\n";
+            std::cout << "  ↪ Fallback: " << fallback << "\n";
         }
     }
-
-    return 0;
-}
