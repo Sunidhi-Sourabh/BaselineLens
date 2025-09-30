@@ -5,11 +5,6 @@ BaselineLens is a modular C++ CLI tool that scans HTML, CSS, and JavaScript file
 
 ---
 
-## 🧠 Tagline  
-**Feature support, decoded. Decisions, simplified.**
-
----
-
 ## 🛠️ Tool Overview
 
 BaselineLens helps developers:
