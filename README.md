@@ -110,13 +110,15 @@ Watch the full walkthrough: Youtube Demo[]
 Devpost[] | Discord[]
 
 ---
-BaselineLens is built for clarity, speed, and reviewer impact. Whether you're shipping production code or demoing at a hackathon, it helps you validate with confidence
+
+BaselineLens is built for clarity, speed, and reviewer impact. Whether you're shipping production code or demoing at a hackathon, it helps you validate with confidence.
+
 ---
 
 ## 📜 Copyright
 © 2025 Sunidhi Sourabh. All rights reserved.
 BaselineLens is an open-source project licensed under the Apache License 2.0.  
 You are free to use, modify, and distribute this tool under the terms of that license.  
+Attribution is appreciated. Commercial use permitted with proper credit.
 
 ---
-Attribution is appreciated. Commercial use permitted with proper credit.
