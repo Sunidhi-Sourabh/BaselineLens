@@ -34,6 +34,17 @@ BaselineLens helps developers:
 - 🎯 Flags for demo polish: `--export`, `--html`, `--json`, `--quiet`, `--demo`, `--score`
 
 ---
+<details>
+<summary>📦 Requirements</summary>
+
+- C++17 or higher  
+- nlohmann/json (included as single-header)  
+- MSYS2 or Linux-compatible build environment  
+- Make (for compilation)
+
+</details>
+
+---
 
 ## 📦 Installation
 
