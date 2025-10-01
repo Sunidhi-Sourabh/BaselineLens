@@ -97,12 +97,12 @@ See output/report.md for a full scan summary with trust badges, fallback suggest
 ---
 
 ## 🎥 YouTube Demo
-Watch the full walkthrough: Youtube Demo[]
+Watch the full walkthrough: Youtube Demo[https://youtu.be/Ld2yHYwZd9E]
 
 ---
 
 ## 🌐 Connect With Us
-Devpost[] | Discord[]
+Devpost[https://devpost.com/sunidhi-sourabh] | Discord[]
 
 ---
 
